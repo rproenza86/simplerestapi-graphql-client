@@ -45,14 +45,10 @@ disclaimer
 
 ## How to Test
 
-To perform the API operations you could use:
+Use the [Insomnia requests collection](docs/serviceRequestsCollection/Insomnia_SimpleREST.json) exported on the `docs` directory
+to test the service running locally.
 
-1. The `.rest` files placed on the [`docs/restFulCalls/`](https://github.com/rproenza86/taco-chef-service/tree/master/docs/restFulCalls) directory.
-2. Postman collection shared on the [`docs/postman/`](https://github.com/rproenza86/taco-chef-service/tree/master/docs/postman/) directory.
-
-> For more details check the below demo
-
-### Tests Demo
+### Tests setup
 
 1. With latest Node LTS installed, run the following commands in order:
 
@@ -61,6 +57,3 @@ npm ci
 npm run start:db
 npm run start:app
 ```
-
-2. Use the [Insomnia requests collection](docs/serviceRequestsCollection/Insomnia_SimpleREST.json) exported on the `docs` directory
-   to test the service running locally.
