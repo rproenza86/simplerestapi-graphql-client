@@ -21,7 +21,7 @@
     "mongodb": "3.6.6"
   },
   "devDependencies": {
-    "apollo-server-testing": "^2.24.0",
+    "apollo-server-testing": "^2.25.1",
     "mongodb-memory-server": "6.9.6",
     "mongodb-memory-server-core": "6.9.6",
     "mongodb-memory-server-global": "6.9.6",
